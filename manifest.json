@@ -1,0 +1,16 @@
+{
+  "name": "Basic app",
+  "short_name": "App",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#01bb97",
+  "icons": [
+    {
+      "src": "/assets/images/",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#ffffff"
+}

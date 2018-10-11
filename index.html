@@ -4,6 +4,8 @@
 <head>
 	<title>Website into a Progressive Web App</title>
 	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
+	<link rel="manifest" href="manifest.json">
+
 </head>
 
 <body>
@@ -11,5 +13,13 @@
 		<h2>Hai , I'm Online</h2>
 	</main>
 </body>
+<script src="pwa.min.js"></script>
+<script>
+	UpUp.start({
+		'content-url': 'offline.html',
+		'assets': ['public/assets/css/style.css'],
+		'service-worker-url': 'service-worker.js'
+	});
+</script>
 
 </html>
